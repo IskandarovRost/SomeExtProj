@@ -1,0 +1,17 @@
+@import "../halo/halo-defaults";
+@import "com.company.someext5/facebook-defaults";
+@import "app-components";
+@import "com.company.someext5/facebook";
+
+.facebook {
+  // include auto-generated app components SCSS
+  @include app_components;
+  
+  @include facebook;
+}
+
+
+
+.v-theme-version {
+  display: none;
+}
